@@ -465,6 +465,11 @@ p {
     z-index: 3;
 }
 
+.support > h2 {
+    color: #ffffff;
+    font-weight:700
+}
+
 .get-start-area .email {
     background: #3D73AA;
     height: 50px;
@@ -1056,7 +1061,7 @@ p {
 .get-started-button > a {
     background: #ffffff;
     height: 45px;
-    min-width: 155px;
+    min-width: 205px;
     display: inline-block;
     text-align: center;
     line-height: 45px;
