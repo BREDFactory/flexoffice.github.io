@@ -138,7 +138,7 @@ img {
 }
 
 .mt-150 {
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 .mr-15 {
@@ -447,14 +447,14 @@ p {
 .welcome-thumb {
     width: 45%;
     position: absolute;
-    bottom: 80px;
+    top: -50px;
     right: 10px;
     z-index: 9;
 }
 
 .welcome-thumb img {
     height: auto;
-    width: 400px;
+    width: 100%;
 }
 
 .wellcome-heading > h2 {
@@ -597,14 +597,6 @@ p {
 }
 
 .app-download-area {
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-preferred-size: 1;
-    flex-basis: 1;
     margin-top: 50px;
 }
 
@@ -1080,6 +1072,25 @@ p {
 
 .get-started-button {
     text-align: right;
+}
+
+.try-button > a {
+    background: #3D73AA;
+    height: 45px;
+    min-width: 205px;
+    display: inline-block;
+    text-align: center;
+    line-height: 45px;
+    color: #ffffff;
+    font-weight: 500;
+    border-radius: 23px 23px 23px 0;
+}
+
+.try-button > a:hover {
+    background: #56BCCC;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
 }
 
 /* --------------------------
