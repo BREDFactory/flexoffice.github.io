@@ -479,6 +479,12 @@ p {
     padding: 0px 15px;
 }
 
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
 .form-control::-webkit-input-placeholder {
     color: #cec1f4;
     opacity: 1;
