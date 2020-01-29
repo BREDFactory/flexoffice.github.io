@@ -445,11 +445,13 @@ p {
 }
 
 .welcome-thumb {
+    margin-left: 5%;
+    margin-right: 5%;
     width: 45%;
-    position: absolute;
     top: -50px;
     right: 10px;
     z-index: 9;
+    display: inline-block;
 }
 
 .welcome-thumb img {
@@ -550,6 +552,7 @@ p {
 }
 
 .wellcome-heading {
+    display: inline-block;
     margin-bottom: 100px;
 }
 
