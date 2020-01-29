@@ -482,8 +482,6 @@ p {
 }
 
 .buttons-container {
-    display: flex;
-    justify-content: space-between;
     width: 100%;
 }
 
@@ -1085,6 +1083,16 @@ p {
 
 .get-started-button {
     text-align: right;
+}
+.available{
+    display: block;
+}
+.try-button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-top: 10px;
 }
 
 .try-button > a {
